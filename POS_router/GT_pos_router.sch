@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1043,32 +1043,6 @@
 <wire x1="7.2" y1="5.7" x2="7.2" y2="-4.5" width="0.12" layer="21"/>
 <wire x1="7.2" y1="-4.5" x2="-7.5" y2="-4.5" width="0.12" layer="21"/>
 </package>
-<package name="RJ45-VERT">
-<pad name="1" x="0" y="0" drill="0.9"/>
-<pad name="2" x="1.27" y="2.54" drill="0.9"/>
-<pad name="3" x="2.54" y="0" drill="0.9"/>
-<pad name="4" x="3.81" y="2.54" drill="0.9"/>
-<pad name="5" x="5.08" y="0" drill="0.9"/>
-<pad name="6" x="6.35" y="2.54" drill="0.9"/>
-<pad name="7" x="7.62" y="0" drill="0.9"/>
-<pad name="8" x="8.89" y="2.54" drill="0.9"/>
-<hole x="-1.27" y="-6.35" drill="3.25"/>
-<hole x="10.16" y="-6.35" drill="3.25"/>
-<wire x1="-3.3" y1="-11.5" x2="-3.3" y2="4" width="0.12" layer="21"/>
-<wire x1="-3.3" y1="4" x2="12.3" y2="4" width="0.12" layer="21"/>
-<wire x1="12.3" y1="4" x2="12.3" y2="-11.5" width="0.12" layer="21"/>
-<wire x1="12.3" y1="-11.5" x2="-3.3" y2="-11.5" width="0.12" layer="21"/>
-<wire x1="-3.3" y1="-11.5" x2="-3.3" y2="4" width="0.05" layer="39"/>
-<wire x1="-3.3" y1="4" x2="12.3" y2="4" width="0.05" layer="39"/>
-<wire x1="12.3" y1="4" x2="12.3" y2="-11.5" width="0.05" layer="39"/>
-<wire x1="12.3" y1="-11.5" x2="-3.3" y2="-11.5" width="0.05" layer="39"/>
-<wire x1="-3.3" y1="-11.5" x2="-3.3" y2="4" width="0.12" layer="51"/>
-<wire x1="-3.3" y1="4" x2="12.3" y2="4" width="0.12" layer="51"/>
-<wire x1="12.3" y1="4" x2="12.3" y2="-11.5" width="0.12" layer="51"/>
-<wire x1="12.3" y1="-11.5" x2="-3.3" y2="-11.5" width="0.12" layer="51"/>
-<text x="4.6" y="-3.3" size="2" layer="51" ratio="10" align="center">&gt;NAME</text>
-<text x="2.1" y="-6.6" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-</package>
 <package name="10118192-0001LF">
 <smd name="1" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
 <smd name="2" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
@@ -1212,6 +1186,58 @@
 <wire x1="-5.08" y1="1.28" x2="-5.08" y2="-0.5" width="0.12" layer="51"/>
 <wire x1="-5.08" y1="-0.5" x2="-4.23" y2="-1.28" width="0.12" layer="51"/>
 <wire x1="-4.23" y1="-1.28" x2="5.08" y2="-1.28" width="0.12" layer="51"/>
+</package>
+<package name="RJ45-VERT">
+<pad name="1" x="0" y="0" drill="0.9"/>
+<pad name="2" x="1.27" y="2.54" drill="0.9"/>
+<pad name="3" x="2.54" y="0" drill="0.9"/>
+<pad name="4" x="3.81" y="2.54" drill="0.9"/>
+<pad name="5" x="5.08" y="0" drill="0.9"/>
+<pad name="6" x="6.35" y="2.54" drill="0.9"/>
+<pad name="7" x="7.62" y="0" drill="0.9"/>
+<pad name="8" x="8.89" y="2.54" drill="0.9"/>
+<hole x="-1.27" y="-6.35" drill="3.25"/>
+<hole x="10.16" y="-6.35" drill="3.25"/>
+<wire x1="-3.3" y1="-11.5" x2="-3.3" y2="4" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="4" x2="12.3" y2="4" width="0.12" layer="21"/>
+<wire x1="12.3" y1="4" x2="12.3" y2="-11.5" width="0.12" layer="21"/>
+<wire x1="12.3" y1="-11.5" x2="-3.3" y2="-11.5" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="-11.5" x2="-3.3" y2="4" width="0.05" layer="39"/>
+<wire x1="-3.3" y1="4" x2="12.3" y2="4" width="0.05" layer="39"/>
+<wire x1="12.3" y1="4" x2="12.3" y2="-11.5" width="0.05" layer="39"/>
+<wire x1="12.3" y1="-11.5" x2="-3.3" y2="-11.5" width="0.05" layer="39"/>
+<wire x1="-3.3" y1="-11.5" x2="-3.3" y2="4" width="0.12" layer="51"/>
+<wire x1="-3.3" y1="4" x2="12.3" y2="4" width="0.12" layer="51"/>
+<wire x1="12.3" y1="4" x2="12.3" y2="-11.5" width="0.12" layer="51"/>
+<wire x1="12.3" y1="-11.5" x2="-3.3" y2="-11.5" width="0.12" layer="51"/>
+<text x="4.6" y="-3.3" size="2" layer="51" ratio="10" align="center">&gt;NAME</text>
+<text x="2.1" y="-6.6" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
+<package name="RJ45-RA">
+<pad name="1" x="0" y="0" drill="0.9"/>
+<pad name="2" x="1.0157" y="1.78" drill="0.9"/>
+<pad name="3" x="2.031" y="0" drill="0.9"/>
+<pad name="4" x="3.047" y="1.78" drill="0.9"/>
+<pad name="5" x="4.06" y="0" drill="0.9"/>
+<pad name="6" x="5.079" y="1.78" drill="0.9"/>
+<pad name="7" x="6.09" y="0" drill="0.9"/>
+<pad name="8" x="7.11" y="1.78" drill="0.9"/>
+<hole x="-2.79" y="-2.54" drill="3.25"/>
+<hole x="9.9" y="-2.54" drill="3.25"/>
+<wire x1="-4.511" y1="-8" x2="-4.511" y2="7" width="0.12" layer="21"/>
+<wire x1="-4.511" y1="7" x2="11.618" y2="7" width="0.12" layer="21"/>
+<wire x1="11.618" y1="7" x2="11.618" y2="-8" width="0.12" layer="21"/>
+<wire x1="11.618" y1="-8" x2="-4.511" y2="-8" width="0.12" layer="21"/>
+<wire x1="-4.511" y1="-8" x2="-4.511" y2="7" width="0.05" layer="39"/>
+<wire x1="-4.511" y1="7" x2="11.618" y2="7" width="0.05" layer="39"/>
+<wire x1="11.618" y1="7" x2="11.618" y2="-8" width="0.05" layer="39"/>
+<wire x1="11.618" y1="-8" x2="-4.511" y2="-8" width="0.05" layer="39"/>
+<wire x1="-4.511" y1="-8" x2="-4.511" y2="7" width="0.12" layer="51"/>
+<wire x1="-4.511" y1="7" x2="11.618" y2="7" width="0.12" layer="51"/>
+<wire x1="11.618" y1="7" x2="11.618" y2="-8" width="0.12" layer="51"/>
+<wire x1="11.618" y1="-8" x2="-4.511" y2="-8" width="0.12" layer="51"/>
+<text x="4.6" y="-3.3" size="2" layer="51" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1395,21 +1421,6 @@
 <wire x1="0.508" y1="-7.62" x2="-0.508" y2="-6.604" width="0.254" layer="94"/>
 <wire x1="-0.508" y1="-6.604" x2="1.524" y2="-6.604" width="0.254" layer="94"/>
 <text x="-5.08" y="-12.7" size="1.778" layer="94">&gt;NAME</text>
-</symbol>
-<symbol name="RJ45_JACK">
-<text x="2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="0" y="2.54" visible="pin" length="short" direction="pas"/>
-<pin name="2" x="0" y="0" visible="pin" length="short" direction="pas"/>
-<pin name="3" x="0" y="-2.54" visible="pin" length="short" direction="pas"/>
-<pin name="4" x="0" y="-5.08" visible="pin" length="short" direction="pas"/>
-<pin name="5" x="0" y="-7.62" visible="pin" length="short" direction="pas"/>
-<pin name="6" x="0" y="-10.16" visible="pin" length="short" direction="pas"/>
-<pin name="7" x="0" y="-12.7" visible="pin" length="short" direction="pas"/>
-<pin name="8" x="0" y="-15.24" visible="pin" length="short" direction="pas"/>
-<text x="2.54" y="-19.05" size="1.778" layer="96" ratio="10">&gt;VALUE</text>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="-16.51" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-16.51" x2="11.43" y2="-16.51" width="0.254" layer="94"/>
-<wire x1="2.54" y1="3.81" x2="11.43" y2="3.81" width="0.254" layer="94"/>
 </symbol>
 <symbol name="USB-5">
 <wire x1="10.16" y1="8.89" x2="0" y2="8.89" width="0.254" layer="94"/>
@@ -1704,6 +1715,21 @@
 <wire x1="4.064" y1="-4.572" x2="3.175" y2="-4.572" width="0.254" layer="94" curve="-120.510237"/>
 <pin name="4" x="0" y="-5.08" visible="pin" length="short" direction="pas"/>
 </symbol>
+<symbol name="RJ45_JACK">
+<text x="2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="0" y="2.54" visible="pin" length="short" direction="pas"/>
+<pin name="2" x="0" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="3" x="0" y="-2.54" visible="pin" length="short" direction="pas"/>
+<pin name="4" x="0" y="-5.08" visible="pin" length="short" direction="pas"/>
+<pin name="5" x="0" y="-7.62" visible="pin" length="short" direction="pas"/>
+<pin name="6" x="0" y="-10.16" visible="pin" length="short" direction="pas"/>
+<pin name="7" x="0" y="-12.7" visible="pin" length="short" direction="pas"/>
+<pin name="8" x="0" y="-15.24" visible="pin" length="short" direction="pas"/>
+<text x="2.54" y="-19.05" size="1.778" layer="96" ratio="10">&gt;VALUE</text>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="-16.51" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-16.51" x2="11.43" y2="-16.51" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="11.43" y2="3.81" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DB25-RA-MALE" prefix="J">
@@ -1808,32 +1834,6 @@
 <technology name="">
 <attribute name="HEIGHT" value="11"/>
 <attribute name="ROYPN" value="320-0022"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RJ45-JACK-VERT" prefix="J">
-<description>&lt;b&gt;RJ45 through hole vertical &lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="RJ45_JACK" x="0" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="RJ45-VERT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="HEIGHT" value="15.7"/>
-<attribute name="ROYPN" value="320-0043"/>
 </technology>
 </technologies>
 </device>
@@ -1958,6 +1958,50 @@
 <technology name="">
 <attribute name="HEIGHT" value="8.38"/>
 <attribute name="ROYPN" value="320-0023"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RJ45-JACK" prefix="J">
+<description>&lt;b&gt;RJ45 through hole right angle, unshielded &lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="RJ45_JACK" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="VERT" package="RJ45-VERT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="15.7"/>
+<attribute name="ROYPN" value="320-0043"/>
+</technology>
+</technologies>
+</device>
+<device name="RA" package="RJ45-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="13.3"/>
+<attribute name="ROYPN" value="320-0047"/>
 </technology>
 </technologies>
 </device>
@@ -3536,7 +3580,6 @@
 <part name="U2" library="communication" deviceset="MAX3243" device="ST-EB"/>
 <part name="U3" library="communication" deviceset="MAX3243" device="ST-EB"/>
 <part name="FRAME2" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="J7" library="mechanical" deviceset="RJ45-JACK-VERT" device=""/>
 <part name="J8" library="mechanical" deviceset="USB" device="-MICRO-B-SMT-FLG"/>
 <part name="J9" library="mechanical" deviceset="USB-A-RECEPT-RA" device=""/>
 <part name="J3" library="mechanical" deviceset="RPI_ZERO_HDR" device="0.2_STACK"/>
@@ -3660,6 +3703,7 @@
 <part name="C38" library="passive" deviceset="C0402" device="-100NF-16V-10-X7R" value="100nF"/>
 <part name="PWR54" library="supply" deviceset="GND" device=""/>
 <part name="PWR55" library="supply" deviceset="GND" device=""/>
+<part name="J5" library="mechanical" deviceset="RJ45-JACK" device="RA"/>
 </parts>
 <sheets>
 <sheet>
@@ -3677,7 +3721,6 @@
 <instance part="U3" gate="G$1" x="320.04" y="209.55"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="325.12" y="0"/>
-<instance part="J7" gate="G$1" x="63.5" y="116.84"/>
 <instance part="J8" gate="G$1" x="31.75" y="154.94" rot="MR0"/>
 <instance part="J9" gate="G$1" x="231.14" y="72.39"/>
 <instance part="J3" gate="G$1" x="63.5" y="62.23"/>
@@ -3840,6 +3883,7 @@
 </instance>
 <instance part="PWR54" gate="G$1" x="137.16" y="205.74"/>
 <instance part="PWR55" gate="G$1" x="118.11" y="191.77"/>
+<instance part="J5" gate="G$1" x="63.5" y="116.84"/>
 </instances>
 <busses>
 </busses>
@@ -4151,10 +4195,10 @@
 <pinref part="PWR42" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="116.84" x2="59.69" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="59.69" y1="116.84" x2="59.69" y2="97.79" width="0.1524" layer="91"/>
 <pinref part="PWR45" gate="G$1" pin="GND"/>
+<pinref part="J5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C34" gate="G$1" pin="2"/>
@@ -5115,17 +5159,17 @@
 <junction x="58.42" y="255.27"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="119.38" x2="48.26" y2="123.19" width="0.1524" layer="91"/>
 <pinref part="PWR47" gate="G$1" pin="24V"/>
+<pinref part="J5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SCR_BUTTN" class="0">
 <segment>
-<pinref part="J7" gate="G$1" pin="5"/>
 <wire x1="63.5" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
 <label x="41.91" y="109.22" size="1.778" layer="95"/>
+<pinref part="J5" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="33"/>
@@ -5137,9 +5181,9 @@
 </net>
 <net name="SCR_LEDN" class="0">
 <segment>
-<pinref part="J7" gate="G$1" pin="6"/>
 <wire x1="63.5" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
 <label x="41.91" y="106.68" size="1.778" layer="95"/>
+<pinref part="J5" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="37"/>
@@ -5182,34 +5226,34 @@
 </net>
 <net name="BUFF_SCLK" class="0">
 <segment>
-<pinref part="J7" gate="G$1" pin="3"/>
 <wire x1="63.5" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
 <label x="41.91" y="114.3" size="1.778" layer="95"/>
 <pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="BUFF_MISO" class="0">
 <segment>
-<pinref part="J7" gate="G$1" pin="4"/>
 <wire x1="63.5" y1="111.76" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
 <label x="41.91" y="111.76" size="1.778" layer="95"/>
 <pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="BUFF_MOSI" class="0">
 <segment>
-<pinref part="J7" gate="G$1" pin="7"/>
 <wire x1="63.5" y1="104.14" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
 <label x="41.91" y="104.14" size="1.778" layer="95"/>
 <pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="BUFF_CSN" class="0">
 <segment>
-<pinref part="J7" gate="G$1" pin="8"/>
 <wire x1="63.5" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
 <label x="41.91" y="101.6" size="1.778" layer="95"/>
 <pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="8"/>
 </segment>
 </net>
 </nets>
